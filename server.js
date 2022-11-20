@@ -1,32 +1,35 @@
-// To kill port:
-// npm install -global kill-port #
-// kill-port -port 3000
+// Require path
+const path = require("path")
 
-// Express dependency
+// Require express.js
 const express = require("express");
 
-// File system dependency
-const fs = require("fs");
+// Routes folder location
+const routes = require('/routes/index.js')
 
-//
+// Express variable, industry standard is "app"
 const app = express();
 
-// Port
-const PORT = 3001;
-
-// Route creation and add "/" route
-app.use(express.static("./public/"));
+// Port variable, always include process.env.PORT with 3001
+const PORT = process.env.PORT || 3001;
 
 // Data parser
-app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+app.use("/routes", routes);
 
-// Round files
-require("./public/assets/routes/apiRoutes")(app);
-require("./public/assets/routes/htmlRoutes")(app);
+// Route creation and add "/" route
+app.use(express.static("public"));
+
+// Route to notes html page
+app.get("/notes", (req, res) =>
+  res.sendFile(path.join(__dirname, "/public/notes.html")));
+
+// Route to index html page
+app.get("*", (req, res) =>
+res.sendFile(path.join(__dirname, "/public/index.html")));
 
 // Starts server
-
 app.listen(PORT, () => {
   console.log(`Welcome!
     The server is available at localhost${PORT}.
