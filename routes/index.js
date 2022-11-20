@@ -4,7 +4,7 @@
 const express = require('express');
 
 // Notes route
-const notesRoute = require('./notes.js')
+const notesRoute = require('./notes')
 
 // App
 const app = express();

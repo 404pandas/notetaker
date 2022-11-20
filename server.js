@@ -5,7 +5,7 @@ const path = require("path")
 const express = require("express");
 
 // Routes folder location
-const routes = require('/routes/index.js')
+const routes = require('./routes/index.js')
 
 // Express variable, industry standard is "app"
 const app = express();
@@ -32,6 +32,6 @@ res.sendFile(path.join(__dirname, "/public/index.html")));
 // Starts server
 app.listen(PORT, () => {
   console.log(`Welcome!
-    The server is available at localhost${PORT}.
+    The server is available at http://localhost:${PORT} .
     Enjoy and please star the repo!`);
 });
