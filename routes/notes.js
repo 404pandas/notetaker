@@ -1,6 +1,5 @@
 // Routes for get, post, put, delete notes will go here
 const note = require("express").Router();
-const nodemon = require("nodemon");
 const { readFromFile, appendToFile, writeToFile } = require("../utilities/fs");
 
 // Get notes
