@@ -1,26 +1,127 @@
 [
-          {
-                    "title": "Hello, World!",
-                    "text": "This is a test note."
-          },
-          {
-                    "title": "Test test test",
-                    "text": "test test",
-                    "id": 1669081721673
-          },
-          {
-                    "title": "This is a title",
-                    "text": "And this is stuff for the note",
-                    "id": 1669083540333
-          },
-          {
-                    "title": "fd",
-                    "text": "fdfsf",
-                    "id": 1669083631853
-          },
-          {
-                    "title": "tests t",
-                    "text": "resttes test t",
-                    "id": 1775348031415
-          }
+  {
+    "title": "Verse I - The White Wolf",
+    "text": "He comes from shadows, blade and frost, a monster-slayer tempest-tossed. His eyes like amber, heart of stone, he wanders every road alone. Too grim for verse, too proud for song — yet somehow I've followed all along. Need a better rhyme for 'mutation.' Ask Geralt if he minds being immortalized again. He'll say no. I'll do it anyway.",
+    "id": 1672531200000
+  },
+  {
+    "title": "Debts — Current Tally",
+    "text": "Owe Zoltan: 40 ducats (the card game, I had a system, the system failed). Owe the Rosemary & Thyme: 2 weeks back rent. Owe some fellow in Oxenfurt whose name I've wisely forgotten: 15 orens. Am OWED by the Countess de Stael: one evening of witty conversation, which I have already provided and she has not yet compensated. Morally I am ahead.",
+    "id": 1676419200000
+  },
+  {
+    "title": "Ciri — Chronicle Notes",
+    "text": "She moves like a fencer who was also raised by wolves. Teleports, or something close to it. Called Elder Blood — the Witcher books on this subject are dry even by witcher standards. She laughs like she's surprised by it every time. Remember to ask Geralt how much of this I'm allowed to publish. He'll say none. Publish everything.",
+    "id": 1679270400000
+  },
+  {
+    "title": "Novigrad — Observations",
+    "text": "The city smells of ambition and fish, usually in that order. The docks smell of just fish. The Temple Isle smells of incense and hypocrisy. The Chameleon smells of spilled ale, pipe smoke, and the particular perfume of Priscilla, which is the best smell in all of Novigrad and possibly the continent.",
+    "id": 1680652800000
+  },
+  {
+    "title": "Yen — Handle With Care",
+    "text": "Yennefer of Vengerberg. Hair: black. Eyes: violet. Temper: volcanic. Magic: terrifying. Opinion of me: openly contemptuous, which I've always felt masks a grudging respect. Do NOT attempt to compliment her poetry. Do NOT mention Geralt first in every sentence. She finds it tiresome. She is correct. I still do it. Survival tip: keep a door between you and her at all times.",
+    "id": 1682899200000
+  },
+  {
+    "title": "Ballad Draft - River Crossing",
+    "text": "The ferryman asked for a coin, the soldier asked for blood, the maiden asked for nothing at all — she'd learned the cost of asking. Third verse needs work. The ferryman stanza is strong. Consider cutting the soldier entirely, he's become a structural problem. Or give him a name. Names fix everything in ballads. Call him Edrek. Perfect. Done.",
+    "id": 1686355200000
+  },
+  {
+    "title": "Inn Review — The Drunken Pig",
+    "text": "Two stars. Straw mattress contained something alive. Ale was technically ale in the same way that swamp water is technically water. Barmaid threw a rag at me when I requested a second candle. The other guests applauded. Performed three songs to a hostile audience of six and a dog. The dog left after the first. Will not return unless absolutely necessary, which in this profession means I'll be back by spring.",
+    "id": 1688428800000
+  },
+  {
+    "title": "Things Geralt Said Today",
+    "text": "'Hmm.' (x4) 'Don't touch that.' (x2) 'I told you not to touch that.' (x1) 'Put it down.' (x1) 'I'm not your bodyguard, Dandelion.' (x1, ironic, as he was actively guarding my body at the time) 'This is your fault.' (x3, debatable) 'Go wait over there.' (x5) 'You were supposed to wait over there.' (x3). A rich inner life, suppressed for professional reasons.",
+    "id": 1692489600000
+  },
+  {
+    "title": "Performance Notes — Oxenfurt",
+    "text": "Open with 'The Fisherman's Daughter' — always gets them. Follow with 'Elaine Ettariel' for the scholars in the back. Skip 'The Ballad of the Pissed-On Merchant' if the merchant's cousin is in the audience again. End set with 'Toss a Coin' — yes it's the obvious choice, yes they love it, no I will not apologize, it pays for everything.",
+    "id": 1694736000000
+  },
+  {
+    "title": "Dijkstra — Notes",
+    "text": "Do not trust Dijkstra. He is always three moves ahead and knows it, which makes conversation exhausting. He has something on everyone, including me. What he has on me is embarrassing but not disqualifying. He pays well for information and pays better for silence. He is, in a professional sense, an excellent contact. In a personal sense, unsettling. He smiles too slowly.",
+    "id": 1698192000000
+  },
+  {
+    "title": "Poem — Unfinished (Velvet)",
+    "text": "Your hair was the color of autumn's last lie, your laugh was a knife wrapped in velvet and wine — I tried to write you into something that lasts but some things resist the attempt to define. Second stanza needs a turn. It's too soft. She was not soft. She threw a boot at me on our third meeting. That boot should be in the poem. Artistic compromise: mention the boot metaphorically.",
+    "id": 1699574400000
+  },
+  {
+    "title": "Monsters — Summary Sheet",
+    "text": "Drowners: water, smell terrible, surprisingly dangerous, do not underestimate. Nekkers: underground, come in groups, also do not underestimate. Wraiths: moonlight, blades pass through them unless silver, will not discuss the Oxenfurt incident further. Striga: cursed humans, tragic, very fast, Geralt cried after defeating one and denied it, I was there. Vampires: complicated. There is one I would like to describe as a 'contact' and leave it at that.",
+    "id": 1703721600000
+  },
+  {
+    "title": "Toussaint — First Impressions",
+    "text": "The wine is real. The knights are real. The vineyards stretching to the hills are real and beautiful enough to make a poet feel like the universe has finally arranged itself correctly. The courtly drama, however, is catastrophic — three factions, two secret affairs, one curse, and a vineyard dispute ongoing since before my grandfather was born. Perfect. I am exactly where I need to be. Ordering more wine.",
+    "id": 1705276800000
+  },
+  {
+    "title": "Things to Never Do Again",
+    "text": "1. Bet on gwent against a Nilfgaardian officer. 2. Sleep in a barn near Velen without checking the barn first. 3. Describe a sorceress's age, even generously, within her hearing. 4. Ask Geralt 'how bad can it be' before entering any structure. 5. Improvise a verse about a local lord while in that local lord's tavern. 6. Assume the cart will be there. The cart is never there.",
+    "id": 1714262400000
+  },
+  {
+    "title": "Skellige — Field Notes",
+    "text": "The cliffs are genuinely magnificent. I've written three verses about them already and they keep demanding more. The people are loud, warm, and extremely likely to challenge you to a duel if you look at their ale wrong. Excellent singers — rough technique, extraordinary feeling. I've stolen two melodies and intend to steal two more. The mead is catastrophic. I've had four flagons. Writing these notes from the floor.",
+    "id": 1715731200000
+  },
+  {
+    "title": "Song Draft — After the War",
+    "text": "The war took the roads and the roads took the men and the men took the season of birds. What's left of a village when the smoke clears away? The children remember the words. That last line is good. That last line might be the best line I've written this year. Do not lose this note. I have lost better notes than this. Do not lose this note. Writing it again: 'The children remember the words.'",
+    "id": 1718841600000
+  },
+  {
+    "title": "Supplies Needed",
+    "text": "Quills (all of them snapped, suspicious, Geralt denies involvement). Ink — the good black, not the tavern stuff that fades by morning. New journal, this one is nearly full and the spine is broken. Candles — multiple. A decent cloak, the green one has a hole that cannot be romantically interpreted. Lute strings (A and D). Horse feed if I end up with the horse again which I hope I do not.",
+    "id": 1724976000000
+  },
+  {
+    "title": "Ode to Myself — Draft",
+    "text": "Lesser men have rested. Lesser men have looked upon the road and said: enough roads. But Dandelion — born Julien Alfred Pankratz, Viscount de Lettenhove, poet, bard, chronicler, occasional spy, and the most traveled lutist in the Northern Kingdoms — has never met a road he could leave alone. This is either a great virtue or a significant character flaw. Both, most likely.",
+    "id": 1727913600000
+  },
+  {
+    "title": "Things That Actually Scared Me",
+    "text": "Honest list, tell no one: 1. The crones of Crookback Bog. Something wrong with them beyond the obvious. 2. The silence after a leshen moves. 3. Gaunter O'Dimm, who I met once and will not describe further because writing his name is already unwise. 4. The look on Geralt's face when Ciri was missing. Not the witcher face — the other one. 5. My own reflection after the incident with the demon. Growth experience.",
+    "id": 1729555200000
+  },
+  {
+    "title": "Philosophy — Intermittent",
+    "text": "A song is not the event it describes. A song is the shape the event leaves in the air after it's over. Geralt fights monsters. I make the shape. Neither of us would admit the other is necessary, but here we are, fifteen years and counting, same roads. He keeps me alive because I'd die stupidly without him. I keep him human because he'd forget how without me. Fair trade. Don't tell him I think this.",
+    "id": 1730937600000
+  },
+  {
+    "title": "Dandelion — The Name",
+    "text": "My mother called me Julien. The academy called me Pankratz. Geralt called me Dandelion once, early on, and it stuck — he's never explained why and I've never asked. I suspect it was an insult that became something else over time. Most things with Geralt are like that.",
+    "id": 1742000000000
+  },
+  {
+    "title": "Letter to Geralt — Unsent",
+    "text": "I don't write you letters. You don't read letters. You don't write back. But if I wrote you a letter, it would say: you are the best story I ever stumbled into. The roads were better with you on them. I'd do it again. Every stupid mile of it. Don't tell anyone I wrote this.",
+    "id": 1743465600000
+  },
+  {
+    "title": "On Writing",
+    "text": "The trick to the first line is to write the fifth line first and work backward. The trick to the last line is to know when the thing is over, which most poets don't — they keep going after the poem has ended. The trick to the middle is to be honest in the middle, because readers can tell when you've flinched. I flinch sometimes. Less than I used to.",
+    "id": 1754092800000
+  },
+  {
+    "title": "Last Night's Performance",
+    "text": "The crowd was difficult at first — tired, the way a crowd is tired when the war has been going on too long and they've run out of anger and settled into grey. Started soft. Almost lost them. Switched to the new one about the children and the roads and something shifted. A woman in the third row started crying. Not the loud kind. The kind where they don't know they're doing it. That's the whole point of this job.",
+    "id": 1756684800000
+  },
+  {
+    "title": "Chronicle — Final Chapter",
+    "text": "I don't know how it ends. I've written three endings: one where Geralt rides off and doesn't look back (probable), one where he stays somewhere and learns to want something that isn't a contract (unlikely), one where the road takes him and I'm the only one who remembers (I don't finish that one). I leave space in the book. I'll fill it when the time comes. He'd say that's sentimental. He'd be right. I'm keeping the space.",
+    "id": 1760486400000
+  }
 ]
