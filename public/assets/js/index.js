@@ -259,21 +259,24 @@ const closeConfirm = () => {
 const confirmDelete = () => {
   if (!noteToDelete) return;
 
+  // Capture now — closeConfirm() nulls noteToDelete asynchronously via GSAP
+  const idToDelete = noteToDelete;
+
   // Animate the specific list item out first
   const items = noteList.querySelectorAll('.note-item');
   let target = null;
   items.forEach(item => {
     const d = JSON.parse(item.getAttribute('data-note'));
-    if (String(d.id) === String(noteToDelete)) target = item;
+    if (String(d.id) === String(idToDelete)) target = item;
   });
 
   closeConfirm();
 
   const doDelete = () => {
-    deleteNote(noteToDelete)
+    deleteNote(idToDelete)
       .then(() => {
         showToast('Committed to the flames.', 'info');
-        if (String(activeNote.id) === String(noteToDelete)) {
+        if (String(activeNote.id) === String(idToDelete)) {
           activeNote = {};
           isEditing  = false;
           renderActiveNote();
