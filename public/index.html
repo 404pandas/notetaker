@@ -1,27 +1,161 @@
 <!DOCTYPE html>
 <html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Note Taker — Capture Every Idea</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+  </head>
+  <body class="landing-page">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Note Taker</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.1.3/flatly/bootstrap.min.css" />
-</head>
-
-<body>
-  <nav class="navbar navbar-dark bg-dark">
-    <a class="navbar-brand" href="/">Note Taker
-    </a>
-  </nav>
-  <div class="container">
-    <div style="margin-top: 80px;" class="jumbotron text-center">
-      <h1 class="display-4">Note Taker <span role="img" aria-label="Memo">📝</span></h1>
-      <h4 class="mt-4">Take notes with Express</h4>
-      <a class="btn btn-primary btn-lg mt-4" href="/notes" role="button">Get Started</a>
+    <!-- Decorative background blobs -->
+    <div class="bg-shapes">
+      <div class="bg-shape bg-shape-1"></div>
+      <div class="bg-shape bg-shape-2"></div>
+      <div class="bg-shape bg-shape-3"></div>
     </div>
-  </div>
-  <script src="/assets/js/index.js"></script>
-</body>
 
+    <!-- Navigation -->
+    <nav class="landing-nav">
+      <a class="nav-brand" href="/">
+        Note<span class="brand-accent">Taker</span>
+      </a>
+      <a href="/notes" class="nav-link-btn">Open App →</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="hero-badge-dot"></span>
+            Express + Node.js
+          </div>
+          <h1 class="hero-title">
+            <span class="title-line">Capture Every</span>
+            <span class="title-line accent">Brilliant Idea</span>
+          </h1>
+          <p class="hero-subtitle">
+            A fast, focused note-taking app. Write it down before it slips away — your thoughts, organized and always within reach.
+          </p>
+          <a href="/notes" class="hero-cta">
+            Get Started
+            <span class="cta-arrow">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </span>
+          </a>
+        </div>
+
+        <div class="hero-visual">
+          <div class="app-mockup">
+            <div class="mockup-chrome">
+              <div class="chrome-dot"></div>
+              <div class="chrome-dot"></div>
+              <div class="chrome-dot"></div>
+            </div>
+            <div class="mockup-body">
+              <div class="mockup-sidebar">
+                <div class="mockup-note-item active">
+                  <div class="mockup-note-title" style="width:70%"></div>
+                  <div class="mockup-note-preview"></div>
+                </div>
+                <div class="mockup-note-item">
+                  <div class="mockup-note-title" style="width:55%"></div>
+                  <div class="mockup-note-preview"></div>
+                </div>
+                <div class="mockup-note-item">
+                  <div class="mockup-note-title" style="width:80%"></div>
+                  <div class="mockup-note-preview"></div>
+                </div>
+                <div class="mockup-note-item">
+                  <div class="mockup-note-title" style="width:62%"></div>
+                  <div class="mockup-note-preview"></div>
+                </div>
+              </div>
+              <div class="mockup-editor">
+                <div class="mockup-editor-title"></div>
+                <div class="mockup-line"></div>
+                <div class="mockup-line short"></div>
+                <div class="mockup-line"></div>
+                <div class="mockup-line shorter"></div>
+                <div class="mockup-line"></div>
+                <div class="mockup-line short"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Features -->
+      <section class="features">
+        <div class="features-grid">
+          <div class="feature-card">
+            <span class="feature-icon">⚡</span>
+            <h3 class="feature-title">Instant Save</h3>
+            <p class="feature-desc">Notes persist to the file system the moment you hit save — no lag, no sync delays.</p>
+          </div>
+          <div class="feature-card">
+            <span class="feature-icon">✏️</span>
+            <h3 class="feature-title">Edit Anytime</h3>
+            <p class="feature-desc">Go back and refine your notes. Full CRUD — create, read, update, and delete.</p>
+          </div>
+          <div class="feature-card">
+            <span class="feature-icon">🔍</span>
+            <h3 class="feature-title">Quick Search</h3>
+            <p class="feature-desc">Find any note instantly with real-time filtering across titles and content.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script>
+      // === Landing Page GSAP Animations ===
+
+      const tl = gsap.timeline({ defaults: { ease: 'power3.out' } });
+
+      tl.from('.landing-nav', { duration: 0.8, y: -60, opacity: 0 })
+        .from('.hero-badge', { duration: 0.7, opacity: 0, y: 30 }, '-=0.4')
+        .from('.title-line', { duration: 0.85, opacity: 0, y: 70, stagger: 0.14 }, '-=0.35')
+        .from('.hero-subtitle', { duration: 0.75, opacity: 0, y: 30 }, '-=0.5')
+        .from('.hero-cta', { duration: 0.6, opacity: 0, scale: 0.82, ease: 'back.out(1.7)' }, '-=0.4')
+        .from('.app-mockup', { duration: 1.1, opacity: 0, x: 90, ease: 'power2.out' }, '-=1.4')
+        .from('.mockup-note-item', { duration: 0.5, opacity: 0, x: -16, stagger: 0.1, ease: 'power2.out' }, '-=0.6')
+        .from('.mockup-line', { duration: 0.4, scaleX: 0, transformOrigin: 'left center', stagger: 0.07, ease: 'power2.out' }, '-=0.45')
+        .from('.feature-card', { duration: 0.55, opacity: 0, y: 40, stagger: 0.1, ease: 'power2.out' }, '-=0.2');
+
+      // Continuous floating animation on mockup
+      gsap.to('.app-mockup', {
+        y: -16,
+        duration: 3.5,
+        repeat: -1,
+        yoyo: true,
+        ease: 'sine.inOut',
+        delay: 2.2
+      });
+
+      // Slow drift on bg blobs
+      gsap.to('.bg-shape-1', { x: 30, y: 20, duration: 12, repeat: -1, yoyo: true, ease: 'sine.inOut' });
+      gsap.to('.bg-shape-2', { x: -20, y: -30, duration: 15, repeat: -1, yoyo: true, ease: 'sine.inOut' });
+      gsap.to('.bg-shape-3', { x: 25, y: 25, duration: 10, repeat: -1, yoyo: true, ease: 'sine.inOut' });
+
+      // Feature card hover
+      document.querySelectorAll('.feature-card').forEach(card => {
+        const icon = card.querySelector('.feature-icon');
+        card.addEventListener('mouseenter', () => {
+          gsap.to(card, { y: -8, duration: 0.28, ease: 'power2.out' });
+          gsap.to(icon, { scale: 1.25, rotation: 8, duration: 0.28, ease: 'back.out(1.7)' });
+        });
+        card.addEventListener('mouseleave', () => {
+          gsap.to(card, { y: 0, duration: 0.28, ease: 'power2.out' });
+          gsap.to(icon, { scale: 1, rotation: 0, duration: 0.28, ease: 'back.out(1.7)' });
+        });
+      });
+    </script>
+  </body>
 </html>

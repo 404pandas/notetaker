@@ -2,6 +2,7 @@
 
   <!-- Add badges using the following format: -->
   <!-- ![Name](urlToShieldHere)(urlToGithubHere) -->
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Contributors](https://img.shields.io/github/contributors/404pandas/notetaker.svg?style=plastic&logo=appveyor)](https://github.com/404pandas/notetaker/graphs/contributors)
 [![Forks](https://img.shields.io/github/forks/404pandas/notetaker.svg?style=plastic&logo=appveyor)](https://github.com/404pandas/notetaker/network/members)
@@ -18,7 +19,6 @@
     This is a project for coding bootcamp that utilizes express to create, save, and delete notes using the file system and local .db storage
     <br />
   </p>
-
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -55,11 +55,10 @@
 [![HTML](https://img.shields.io/badge/Language-HTML/CSS-ff8000?style=plastic&logo=HTML5&logoWidth=10)](https://html.com/)
 [![Node.js](https://img.shields.io/badge/Language-Java-00ff80?style=plastic&logo=Java&logoWidth=10)](https://dev.java/learn/)
 [![MySQL](https://img.shields.io/badge/Database-MySQL-ff0000?style=plastic&logo=MySQL&logoWidth=10)](https://dev.mysql.com/doc/)
-[![Heroku](https://img.shields.io/badge/Cloud-Heroku-00ff00?style=plastic&logo=Heroku&logoWidth=10)](https://devcenter.heroku.com/categories/reference)
+[![Heroku](https://img.shields.io/badge/Cloud-Render-00ff00?style=plastic&logo=Render&logoWidth=10)](https://notetaker-irrb.onrender.com/)
 [![Express](https://img.shields.io/badge/Framework-Express-80ff00?style=plastic&logo=Express&logoWidth=10)](https://expressjs.com/)
 [![npm](https://img.shields.io/badge/Tools-npm-ff0000?style=plastic&logo=npm&logoWidth=10)](https://www.npmjs.com/)
 [![VS Code](https://img.shields.io/badge/IDE-VSCode-ff0000?style=plastic&logo=VisualStudioCode&logoWidth=10)](https://code.visualstudio.com/docs)
-
 
 </div>
 
@@ -67,18 +66,19 @@
 
 ## Installation
 
-1. Clone the repo
+1.  Clone the repo
 
         git clone https://github.com/404pandas/notetaker.git
-2. Run npm
+
+2.  Run npm
 
         npm install
 
-3. Run server
+3.  Run server
 
         node server.js
 
-4. Enjoy!
+4.  Enjoy!
 
 <!-- CONTRIBUTING -->
 
@@ -110,6 +110,7 @@ See LICENSE.txt for more information.
 Mary Elenius - mary.panda.jackson@gmail.com
 
 Project Link: [https://github.com/404pandas/notetaker](https://github.com/404pandas/notetaker)
+Deployment Link: [https://notetaker-irrb.onrender.com/](https://notetaker-irrb.onrender.com/)
 
 <!-- ACKNOWLEDGMENTS -->
 
