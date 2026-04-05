@@ -199,7 +199,7 @@ const handleNoteSave = () => {
   const title = noteTitle.value.trim();
   const text  = noteText.value.trim();
   if (!title || !text) {
-    showToast('Add a title and some text first.', 'error');
+    showToast('Every entry needs a title and a tale.', 'error');
     return;
   }
 
@@ -207,13 +207,13 @@ const handleNoteSave = () => {
 
   saveNote({ title, text })
     .then(() => {
-      showToast('Note saved!', 'success');
+      showToast('Entry sealed to the journal.', 'success');
       activeNote = {};
       isEditing  = false;
       getAndRenderNotes();
       renderActiveNote();
     })
-    .catch(() => showToast('Failed to save note.', 'error'));
+    .catch(() => showToast('The ink refused to dry. Try again.', 'error'));
 };
 
 const handleNoteUpdate = () => {
@@ -224,13 +224,13 @@ const handleNoteUpdate = () => {
 
   updateNote(activeNote.id, { title, text })
     .then(() => {
-      showToast('Note updated!', 'success');
+      showToast('The ballad has been revised.', 'success');
       activeNote = { ...activeNote, title, text };
       isEditing  = false;
       getAndRenderNotes();
       renderActiveNote();
     })
-    .catch(() => showToast('Failed to update note.', 'error'));
+    .catch(() => showToast('The revision was lost to the road.', 'error'));
 };
 
 const handleNoteDelete = (id) => {
@@ -272,7 +272,7 @@ const confirmDelete = () => {
   const doDelete = () => {
     deleteNote(noteToDelete)
       .then(() => {
-        showToast('Note deleted.', 'info');
+        showToast('Committed to the flames.', 'info');
         if (String(activeNote.id) === String(noteToDelete)) {
           activeNote = {};
           isEditing  = false;
@@ -281,7 +281,7 @@ const confirmDelete = () => {
         noteToDelete = null;
         getAndRenderNotes();
       })
-      .catch(() => showToast('Failed to delete note.', 'error'));
+      .catch(() => showToast('The entry survived somehow.', 'error'));
   };
 
   if (target) {

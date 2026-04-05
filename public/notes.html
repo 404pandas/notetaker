@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Note Taker — Notes</title>
+    <title>Jaskier's Journal — Entries</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous" />
     <link rel="stylesheet" href="/assets/css/styles.css" />
   </head>
@@ -13,12 +14,12 @@
     <!-- Confirm Delete Dialog -->
     <div class="confirm-overlay" id="confirmOverlay">
       <div class="confirm-dialog" id="confirmDialog">
-        <span class="confirm-icon">🗑️</span>
-        <h3 class="confirm-title">Delete Note?</h3>
-        <p class="confirm-desc">This action cannot be undone. The note will be permanently removed.</p>
+        <span class="confirm-icon">🗡️</span>
+        <h3 class="confirm-title">Burn This Entry?</h3>
+        <p class="confirm-desc">Once committed to the flames, it cannot be recovered. Even Geralt can't undo this one.</p>
         <div class="confirm-actions">
-          <button class="btn-confirm-cancel" id="confirmCancelBtn">Cancel</button>
-          <button class="btn-confirm-delete" id="confirmDeleteBtn">Delete</button>
+          <button class="btn-confirm-cancel" id="confirmCancelBtn">Keep It</button>
+          <button class="btn-confirm-delete" id="confirmDeleteBtn">Burn It</button>
         </div>
       </div>
     </div>
@@ -31,12 +32,12 @@
 
       <!-- Top Navbar -->
       <nav class="app-navbar">
-        <a href="/" class="app-brand">Note<span>Taker</span></a>
+        <a href="/" class="app-brand">Jaskier's <span>Journal</span></a>
         <div class="nav-actions">
-          <button class="nav-icon-btn save-note hidden" title="Save Note">
+          <button class="nav-icon-btn save-note hidden" title="Seal this entry">
             <i class="fas fa-save"></i>
           </button>
-          <button class="nav-icon-btn new-note" title="New Note">
+          <button class="nav-icon-btn new-note" title="New entry">
             <i class="fas fa-plus"></i>
           </button>
         </div>
@@ -50,7 +51,7 @@
           <div class="sidebar-header">
             <div class="search-wrapper">
               <i class="fas fa-search search-icon"></i>
-              <input class="search-input" type="text" placeholder="Search notes..." autocomplete="off" />
+              <input class="search-input" type="text" placeholder="Search the archives..." autocomplete="off" />
             </div>
           </div>
           <div class="sidebar-list" id="noteList"></div>
@@ -61,7 +62,7 @@
           <div class="editor-header">
             <input
               class="note-title"
-              placeholder="Note title..."
+              placeholder="Title this entry..."
               maxlength="28"
               type="text"
             />
@@ -87,7 +88,7 @@
           <div class="editor-body">
             <textarea
               class="note-textarea"
-              placeholder="Start writing your note here..."
+              placeholder="Begin your account here. The Continent won't chronicle itself..."
             ></textarea>
           </div>
 

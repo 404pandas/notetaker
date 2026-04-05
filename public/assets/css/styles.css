@@ -1,26 +1,28 @@
 /* === Design System === */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500&display=swap');
 
 :root {
-  --bg: #0c0c14;
-  --surface-1: #14141f;
-  --surface-2: #1e1e2e;
-  --surface-3: #28283a;
-  --surface-4: #32324a;
-  --border: rgba(255, 255, 255, 0.07);
-  --border-hover: rgba(255, 255, 255, 0.15);
-  --accent: #f59e0b;
-  --accent-dim: rgba(245, 158, 11, 0.12);
-  --accent-glow: rgba(245, 158, 11, 0.25);
-  --accent-hover: #fbbf24;
-  --danger: #ef4444;
-  --danger-dim: rgba(239, 68, 68, 0.12);
-  --success: #10b981;
-  --info: #6366f1;
-  --text-primary: #eeeef5;
-  --text-secondary: #9999bb;
-  --text-muted: #55556a;
+  /* Witcher — warm parchment & dark wood */
+  --bg: #1a1208;
+  --surface-1: #221a0d;
+  --surface-2: #2d2412;
+  --surface-3: #3a2e1a;
+  --surface-4: #483820;
+  --border: rgba(201, 146, 42, 0.15);
+  --border-hover: rgba(201, 146, 42, 0.35);
+  --accent: #c9922a;
+  --accent-dim: rgba(201, 146, 42, 0.14);
+  --accent-glow: rgba(201, 146, 42, 0.3);
+  --accent-hover: #e0a83a;
+  --danger: #b83232;
+  --danger-dim: rgba(184, 50, 50, 0.14);
+  --success: #4a8c5c;
+  --info: #5a7a9e;
+  --text-primary: #faf3e3;
+  --text-secondary: #b8a07a;
+  --text-muted: #6b5535;
   --font: 'Poppins', sans-serif;
+  --font-display: 'Cinzel', serif;
   --font-content: 'Inter', sans-serif;
   --radius-xs: 4px;
   --radius-sm: 8px;
@@ -29,7 +31,7 @@
   --radius-xl: 28px;
   --shadow: 0 4px 24px rgba(0, 0, 0, 0.5);
   --shadow-lg: 0 8px 48px rgba(0, 0, 0, 0.7);
-  --shadow-accent: 0 4px 24px rgba(245, 158, 11, 0.2);
+  --shadow-accent: 0 4px 24px rgba(201, 146, 42, 0.25);
   --sidebar-width: 300px;
   --navbar-height: 60px;
   --transition: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
@@ -92,7 +94,7 @@ ul, li { list-style: none; }
 .bg-shape-1 {
   width: 600px;
   height: 600px;
-  background: var(--accent);
+  background: #c9922a;
   top: -200px;
   right: -150px;
 }
@@ -100,7 +102,7 @@ ul, li { list-style: none; }
 .bg-shape-2 {
   width: 500px;
   height: 500px;
-  background: #6366f1;
+  background: #2d5a35;
   bottom: -150px;
   left: -100px;
 }
@@ -108,7 +110,7 @@ ul, li { list-style: none; }
 .bg-shape-3 {
   width: 350px;
   height: 350px;
-  background: #ec4899;
+  background: #8b1a1a;
   top: 40%;
   left: 35%;
   transform: translate(-50%, -50%);
@@ -136,9 +138,10 @@ ul, li { list-style: none; }
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  font-size: 1.15rem;
-  font-weight: 700;
-  letter-spacing: -0.02em;
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
 }
 
 .nav-brand .brand-accent { color: var(--accent); }
@@ -210,10 +213,11 @@ ul, li { list-style: none; }
 }
 
 .hero-title {
-  font-size: clamp(2.8rem, 5vw, 4.8rem);
-  font-weight: 800;
-  line-height: 1.08;
-  letter-spacing: -0.04em;
+  font-family: var(--font-display);
+  font-size: clamp(2.4rem, 4.5vw, 4.2rem);
+  font-weight: 700;
+  line-height: 1.12;
+  letter-spacing: 0.02em;
   overflow: hidden;
 }
 
@@ -442,9 +446,10 @@ ul, li { list-style: none; }
 }
 
 .app-brand {
-  font-size: 1.05rem;
-  font-weight: 700;
-  letter-spacing: -0.02em;
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
   color: var(--text-primary);
 }
 
